@@ -17,3 +17,9 @@ Pkg.activate("docs")
 Pkg.instantiate()
 include("docs/make.jl")
 ```
+
+## API
+
+```@docs
+QuantumEnvironment.greet
+```
