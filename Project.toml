@@ -1,0 +1,13 @@
+name = "QuantumEnvironment"
+uuid = "8e4fbf93-0a30-49bc-8af8-32500fbcfca4"
+authors = ["TendonFFF"]
+version = "0.1.0"
+
+[compat]
+julia = "1.11"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
